@@ -23,7 +23,8 @@ class MainActivity : ComponentActivity() {
                 )
 
                 {
-                    LaunchEffectsExample(fakeViewModel = FakeViewModel())
+//                    LaunchEffectsExample(fakeViewModel = FakeViewModel())
+                    RememberUpdateState()
                 }
             }
         }
