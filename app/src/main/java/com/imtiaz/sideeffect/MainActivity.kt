@@ -24,7 +24,8 @@ class MainActivity : ComponentActivity() {
 
                 {
 //                    LaunchEffectsExample(fakeViewModel = FakeViewModel())
-                    RememberUpdateState()
+//                    RememberUpdateState()
+                    DisposableExample(activity = this, backPressedDispatcher = this.onBackPressedDispatcher)
                 }
             }
         }
